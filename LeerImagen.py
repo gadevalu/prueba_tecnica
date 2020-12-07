@@ -18,6 +18,4 @@ if sizecurrent[0]>AnchoA4 or sizecurrent[1]>VerticalA4:
     else :
         nuevoalto = int(round(AnchoA4 * relacionaspecto, 0))
         imagen = imagen.resize((nuevoalto, AnchoA4))
-        imagen.save('resultado.jpg')
-
 imagen.show() 
